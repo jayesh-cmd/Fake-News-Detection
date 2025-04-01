@@ -16,7 +16,7 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 
 # READING CSV FILE & MAKING IT DATAFRAME
-data = pd.read_csv(r"AI ML LEARN\news_data.csv")
+data = pd.read_csv(r"") # DOWNLOAD CSV FILE FROM THE LINK GIVEN IN README
 df = pd.DataFrame(data)
 
 # WordNetLemmatizer - THIS WILL REDUCE THE WORDS AND KEEP THEM MEANINGFULL , Exe. RUNNING - RUN
